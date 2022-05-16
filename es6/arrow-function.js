@@ -18,3 +18,17 @@ var sum = (a, b) => a + b;
 var sum = (a : number, b : number) : number => {
     return a + b;
 }
+
+// basic
+() => {...} //메개변수가 없는경우
+x => {...} //매개변수가 한개인 경우, 소괄호 생략가능
+(x,y) => {...} //매개변수 여러개인 경우, 소과호 생략불가능
+
+// 함수몸체지정
+x => {return x * x}
+x => x * x
+
+()=>{
+    const x = 10;
+    return x * x;
+}
